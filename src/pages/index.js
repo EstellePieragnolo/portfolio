@@ -4,6 +4,12 @@ import "./index.scss";
 
 export default class Index extends React.Component {
   render() {
-    return <Home />;
+    return (
+      <div className="container">
+        <div className="containerOverlay">
+          <Home />
+        </div>
+      </div>
+    );
   }
 }
