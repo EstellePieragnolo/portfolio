@@ -15,6 +15,10 @@
             text-decoration: none;
             transition: box-shadow 0.4s ease-in-out 0s;
 
+            &:link {
+                text-decoration: none;
+            }
+
             &:visited {
                 text-decoration: none;
                 color: #005B50;
