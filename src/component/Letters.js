@@ -1,24 +1,32 @@
 import React from "react";
+import "./Letters.scss";
 
 export default class Letters extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { firstName: "pink", lastName: "green" };
+    this.state = { color: undefined };
   }
-  switchColor = e => {
-    e.preventDefault();
-    if (this.state.firstName === "pink") {
-      this.setState({ firstName: "green" });
-    } else {
-      this.setState({ firstName: "pink" });
-    }
-    if (this.state.lastName === "green") {
-      this.setState({ lastName: "pink" });
-    } else {
-      this.setState({ lastName: "green" });
-    }
+  getRandomColor = () => {
+    const colors = ["pink", "green", "blue", "darkGreen", "lightPink"];
+
+    return colors[Math.floor(Math.random() * Math.floor(5))];
   };
+
+  switchColor = () => {
+    let newColor = this.getRandomColor();
+    if (this.state.color === newColor) {
+      do {
+        newColor = this.getRandomColor();
+        this.setState({ color: newColor });
+      } while (this.state.color === newColor);
+    } else this.setState({ color: newColor });
+  };
+
   render() {
-    return <div onMouseOver={this.switchColor}>{this.props.letter}</div>;
+    return (
+      <div onMouseOver={this.switchColor} className={this.state.color}>
+        {this.props.letter}
+      </div>
+    );
   }
 }

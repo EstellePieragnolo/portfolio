@@ -20,8 +20,10 @@
             position: absolute;
             color: rgba(219, 236, 0, 0.67);
             letter-spacing: -0.97px;
-            top: 91px;
+            top: 95px;
             left: 93px;
+            display: flex;
+            flex-direction: row;
         }
     }
 

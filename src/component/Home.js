@@ -24,16 +24,16 @@ export default class Home extends React.Component {
             <Letters letter="E" />
           </div>
           <div className="homeNameLast">
-            <span onMouseOver={this.switchColor}>P</span>
-            <span onMouseOver={this.switchColor}>I</span>
-            <span onMouseOver={this.switchColor}>E</span>
-            <span onMouseOver={this.switchColor}>R</span>
-            <span onMouseOver={this.switchColor}>A</span>
-            <span onMouseOver={this.switchColor}>G</span>
-            <span onMouseOver={this.switchColor}>N</span>
-            <span onMouseOver={this.switchColor}>O</span>
-            <span onMouseOver={this.switchColor}>L</span>
-            <span onMouseOver={this.switchColor}>O</span>
+            <Letters letter="P" />
+            <Letters letter="I" />
+            <Letters letter="E" />
+            <Letters letter="R" />
+            <Letters letter="A" />
+            <Letters letter="G" />
+            <Letters letter="N" />
+            <Letters letter="O" />
+            <Letters letter="L" />
+            <Letters letter="O" />
           </div>
         </div>
         <div className="homeIntro">
