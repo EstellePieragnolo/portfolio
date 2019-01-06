@@ -3,8 +3,47 @@
     font-size: 50px;
     z-index: 1;
 
-    &Title {
-        margin: 0;
+    &Name {
+        position: relative;
+        margin: 170px 60px 0;
+        font-size: 170px;
+
+        &First {
+            color: rgba(255, 138, 157, 0.90);
+            letter-spacing: -0.97px;
+
+        }
+
+        &Last {
+            position: absolute;
+            color: rgba(219, 236, 0, 0.67);
+            letter-spacing: -0.97px;
+            top: 91px;
+            left: 93px;
+        }
     }
 
+    &Intro {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        text-align: right;
+        margin: 0 60px 0 0;
+        position: fixed;
+        bottom: 80px;
+        right: 24px;
+
+        &Items {
+            font-family: 'Avenir LT Std 35 Light';
+            font-size: 36px;
+            color: #005B50;
+            letter-spacing: -0.8px;
+
+            span {
+                font-size: 36px;
+                color: rgba(255, 138, 157, 0.90);
+            }
+        }
+
+    }
 }
