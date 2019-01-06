@@ -1,33 +1,39 @@
 import React from "react";
 import Menu from "./Menu";
+import Letters from "./Letters";
 import "./Home.scss";
 
 export default class Home extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { firstName: "pink", lastName: "green" };
+  }
+
   render() {
     return (
       <div className="home">
         <Menu />
         <div className="homeName">
           <div className="homeNameFirst">
-            <span>E</span>
-            <span>S</span>
-            <span>T</span>
-            <span>E</span>
-            <span>L</span>
-            <span>L</span>
-            <span>E</span>
+            <Letters letter="E" />
+            <Letters letter="S" />
+            <Letters letter="T" />
+            <Letters letter="E" />
+            <Letters letter="L" />
+            <Letters letter="L" />
+            <Letters letter="E" />
           </div>
           <div className="homeNameLast">
-            <span>P</span>
-            <span>I</span>
-            <span>E</span>
-            <span>R</span>
-            <span>A</span>
-            <span>G</span>
-            <span>N</span>
-            <span>O</span>
-            <span>L</span>
-            <span>O</span>
+            <span onMouseOver={this.switchColor}>P</span>
+            <span onMouseOver={this.switchColor}>I</span>
+            <span onMouseOver={this.switchColor}>E</span>
+            <span onMouseOver={this.switchColor}>R</span>
+            <span onMouseOver={this.switchColor}>A</span>
+            <span onMouseOver={this.switchColor}>G</span>
+            <span onMouseOver={this.switchColor}>N</span>
+            <span onMouseOver={this.switchColor}>O</span>
+            <span onMouseOver={this.switchColor}>L</span>
+            <span onMouseOver={this.switchColor}>O</span>
           </div>
         </div>
         <div className="homeIntro">

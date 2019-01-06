@@ -9,13 +9,13 @@ export default class Menu extends React.Component {
           <a href="#homepage">HOME</a>
         </div>
         <div className="menuItems">
-          <a href="#">ABOUT</a>
+          <a href="#about">ABOUT</a>
         </div>
         <div className="menuItems">
-          <a href="#">EXPERIENCE</a>
+          <a href="#exp">EXPERIENCE</a>
         </div>
         <div className="menuItems">
-          <a href="#">CONTACT</a>
+          <a href="#contact">CONTACT</a>
         </div>
       </div>
     );
