@@ -3,6 +3,10 @@
 * {
     margin: 0;
     font-family: 'Avenir LT Std 45 Book';
+
+    &::selection {
+        background-color: rgba(255, 138, 157, 0.25);
+    }
 }
 
 .container {

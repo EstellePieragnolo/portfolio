@@ -1,29 +1,30 @@
 .home {
-
     font-size: 50px;
     z-index: 1;
+    position: relative;
 
     &Name {
-        position: relative;
-        margin: 170px 60px 0;
-        font-size: 170px;
+
+        margin: 0 60px;
+        font-size: 12vw;
+        padding-top: 21vh;
 
         &First {
-            color: rgba(255, 138, 157, 0.90);
-            letter-spacing: -0.97px;
             display: flex;
             flex-direction: row;
+            color: rgba(255, 138, 157, 0.90);
+            letter-spacing: -3px;
+
 
         }
 
         &Last {
-            position: absolute;
-            color: rgba(219, 236, 0, 0.67);
-            letter-spacing: -0.97px;
-            top: 95px;
-            left: 93px;
             display: flex;
             flex-direction: row;
+            color: rgba(219, 236, 0, 0.67);
+            letter-spacing: -3px;
+            line-height: 0;
+            padding-left: 6.5vw;
         }
     }
 
@@ -34,8 +35,9 @@
         text-align: right;
         margin: 0 60px 0 0;
         position: fixed;
-        bottom: 80px;
-        right: 24px;
+
+        top: 75vh;
+        right: 0;
 
         &Items {
             font-family: 'Avenir LT Std 35 Light';
