@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="225px" height="225px" viewBox="0 0 225 225" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="WebSite" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group">
+            <circle id="Oval" fill="#FFFFFF" transform="translate(112.500000, 112.500000) rotate(90.000000) translate(-112.500000, -112.500000) " cx="112.5" cy="112.5" r="112.5"></circle>
+            <path d="M96.1986659,1.17241311 L106.281534,124.407469 L222.745454,135.020376 C218.925476,153.821075 210.4169,170.918573 198.4935,185.039095 L59.0985537,172.848662 L46.1818847,21.6159962 C60.6260786,11.0580573 77.6817546,3.86011663 96.1986659,1.17241311 Z" id="Combined-Shape" fill-opacity="0.999094203" fill="#ECFF00"></path>
+            <path d="M147.236922,5.46528037 L153.056657,76.5953823 L221.035383,82.7900208 C223.620109,92.2543548 225,102.216032 225,112.5 C225,120.294954 224.207224,127.904744 222.697903,135.253143 L105.873677,125.036576 L95.3059116,1.30565939 C100.91168,0.445939741 106.653762,3.57978805e-16 112.5,0 C124.622363,-7.42280629e-16 136.296908,1.91733414 147.236923,5.46529018 Z" id="Combined-Shape" fill-opacity="0.999094203" fill="#FF8A9D"></path>
+        </g>
+    </g>
+</svg>

@@ -35,18 +35,17 @@
         text-align: right;
         margin: 0 60px 0 0;
         position: fixed;
-
         top: 75vh;
         right: 0;
 
         &Items {
             font-family: 'Avenir LT Std 35 Light';
-            font-size: 36px;
+            font-size: 2.5vw;
             color: #005B50;
             letter-spacing: -0.8px;
 
             span {
-                font-size: 36px;
+                font-size: 2.5vw;
                 color: rgba(255, 138, 157, 0.90);
             }
         }
