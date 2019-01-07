@@ -39,7 +39,7 @@
         &Last {
             .down {
                 animation-name: reveal, downFirst, downLast;
-                animation-duration: 1s, 2.2s, 2.2s;
+                animation-duration: 1.5s, 2.2s, 2.2s;
                 animation-timing-function: ease-in-out, ease-in-out, ease-in-out;
             }
         }
@@ -63,7 +63,7 @@
 
             span {
                 font-size: 2.5vw;
-                animation: colors 10s cubic-bezier(0.075, 0.82, 0.165, 1);
+                animation: colors 10s ease-in-out;
                 animation-iteration-count: infinite;
             }
         }
@@ -99,7 +99,7 @@
         opacity: 0;
     }
 
-    70% {
+    50% {
         opacity: 0.5;
     }
 
