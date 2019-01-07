@@ -14,8 +14,11 @@
             flex-direction: row;
             color: rgba(255, 138, 157, 0.90);
             letter-spacing: -3px;
+        }
 
-
+        &First .start {
+            display: none;
+            margin: -100px 0 0 0;
         }
 
         &Last {
@@ -25,6 +28,20 @@
             letter-spacing: -3px;
             line-height: 0;
             padding-left: 6.5vw;
+        }
+
+        &Last .start {
+            display: none;
+            margin: -180px 0 0 0;
+        }
+
+        &First,
+        &Last {
+            .down {
+                animation-name: reveal, downFirst, downLast;
+                animation-duration: 1.5s, 2.2s, 2.2s;
+                animation-timing-function: ease-in-out, ease-in-out, ease-in-out;
+            }
         }
     }
 
@@ -45,10 +62,70 @@
             letter-spacing: -0.8px;
 
             span {
-                font-size: 2.2vw;
-                color: rgba(255, 138, 157, 0.90);
+                font-size: 2.5vw;
+                animation: colors 10s ease-in-out;
+                animation-iteration-count: infinite;
             }
         }
 
+    }
+}
+
+@keyframes colors {
+    0% {
+        color: rgba(255, 138, 157, 1);
+    }
+
+    25% {
+        color: rgba(219, 236, 0, 1);
+    }
+
+    50% {
+        color: rgba(196, 251, 241, 1);
+    }
+
+    75% {
+        color: rgba(0, 91, 80, 1);
+    }
+
+    100% {
+        color: rgba(255, 138, 157, 1);
+    }
+}
+
+@keyframes reveal {
+    0% {
+        display: none;
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+
+        display: flex;
+        opacity: 1;
+    }
+}
+
+@keyframes downFirst {
+    from {
+        margin: -100px 0 0 0;
+    }
+
+    to {
+        margin: 0;
+    }
+}
+
+@keyframes downLast {
+    from {
+        margin: -180px 0 0 0;
+    }
+
+    to {
+        margin: 0;
     }
 }

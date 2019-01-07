@@ -9,11 +9,11 @@
 
     &Items {
         margin: 30px 15px 0;
-        transition: box-shadow 0.4s ease-in-out 0s;
+        transition: box-shadow 0.6s ease-in-out 0s;
 
         a {
             text-decoration: none;
-            transition: box-shadow 0.4s ease-in-out 0s;
+            transition: box-shadow 0.6s ease-in-out 0s;
             color: #005B50;
 
             &:link {
@@ -27,13 +27,13 @@
 
             &:hover {
                 box-shadow: rgba(255, 138, 157, 1.00) 0px -16px 0px inset;
-                transition: box-shadow 0.4s ease-in-out 0s;
+                transition: box-shadow 0.6s ease-in-out 0s;
             }
 
             &:active,
             &:focus {
                 box-shadow: rgba(219, 236, 0, 0.67) 0px -16px 0px inset;
-                transition: box-shadow 0.4s ease-in-out 0s;
+                transition: box-shadow 0.6s ease-in-out 0s;
             }
 
 
