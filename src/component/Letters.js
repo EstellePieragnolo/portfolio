@@ -33,7 +33,7 @@ export default class Letters extends React.Component {
             <div
                 onMouseOver={this.switchColor}
                 onLoad={this.animateLetters(this.props.time)}
-                className={`${this.state.color} ${this.state.start} ${this.state.animate}`}
+                className={`letters ${this.state.color} ${this.state.start} ${this.state.animate}`}
             >
                 {this.props.letter}
             </div>
