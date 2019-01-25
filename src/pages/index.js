@@ -1,5 +1,7 @@
 import React from "react";
 import Home from "../component/Home";
+import About from "../component/About";
+import { Router } from "@reach/router"
 import "./index.scss";
 
 export default class Index extends React.Component {
@@ -7,7 +9,10 @@ export default class Index extends React.Component {
         return (
             <div className="container">
                 <div className="containerOverlay">
-                    <Home />
+                    <Router>
+                        <Home path="/" />
+                        <About path="/about" />
+                    </Router>
                 </div>
             </div>
         );
